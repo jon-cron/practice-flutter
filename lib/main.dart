@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/widgets.dart';
+
 // Import the firebase_core plugin
 import 'package:firebase_core/firebase_core.dart';
 import 'package:practice/routes.dart';
@@ -36,21 +36,25 @@ class _AppState extends State<App> {
         if (snapshot.hasError) {
           return const Text(
             'error',
-            textDirection: TextDirection.ltr,
+            textDirection: TextDirection.rtl,
           );
         }
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return MaterialApp(
-            routes: appRoutes,
+          return const Text(
+            'loaded',
+            textDirection: TextDirection.ltr,
           );
+          // return MaterialApp(
+          //   routes: appRoutes,
+          // );
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
         return const Text(
           'loading',
-          textDirection: TextDirection.ltr,
+          textDirection: TextDirection.rtl,
         );
       },
     );
