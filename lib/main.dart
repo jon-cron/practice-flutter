@@ -14,7 +14,7 @@ void main() {
 /// would re-initialize FlutterFire and make our application re-enter loading state,
 /// which is undesired.
 class App extends StatefulWidget {
-  const App({super.key});
+  const App({key});
 
   @override
   State<App> createState() => _AppState();
@@ -33,16 +33,16 @@ class _AppState extends State<App> {
       builder: (context, snapshot) {
         // Check for errors
         if (snapshot.hasError) {
-          return Text('error');
+          return const Text('error');
         }
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return MaterialApp();
+          return const MaterialApp();
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
-        return Text('loading');
+        return const Text('loading');
       },
     );
   }
