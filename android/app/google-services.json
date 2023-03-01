@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "712572667399",
+    "project_id": "fireship-flutter-1099e",
+    "storage_bucket": "fireship-flutter-1099e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712572667399:android:69340f4de68c58b8e28ca2",
+        "android_client_info": {
+          "package_name": "io.JAC.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712572667399-ojbg4slpirq3lqlk6912hq3paolf0gsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.JAC.practice",
+            "certificate_hash": "e4efff32447ae86bce4c663ddb0b98b456b1301f"
+          }
+        },
+        {
+          "client_id": "712572667399-el757cd0abo8ibhu02vkgfr7f4ung1bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDICUbpn1Vkbul8-g1RjAZ4j0ihiSb32pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712572667399-el757cd0abo8ibhu02vkgfr7f4ung1bs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712572667399-i9objdc5gvvt4ihirjaukrg6vnvdcbpm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.JAC.practice"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
